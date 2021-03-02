@@ -1,0 +1,83 @@
+.wrap-carousel {
+  margin: 10rem auto; }
+  .wrap-carousel .container .row .col-12 .carousel .carousel-inner .carousel-item:nth-child(2) img {
+    width: 1110px;
+    height: 808.13px; }
+
+.add_to_cart {
+  margin-bottom: 5rem; }
+  .add_to_cart .container .row {
+    text-align: center; }
+    .add_to_cart .container .row .col-8 h1 {
+      font-family: "Josefin Sans", sans-serif;
+      margin-bottom: 3rem; }
+    .add_to_cart .container .row .col-8 p {
+      font-family: "Josefin Sans", sans-serif;
+      margin-bottom: 2rem; }
+    .add_to_cart .container .row .col-8 .counter .row .col-6 {
+      display: flex;
+      align-items: center; }
+      .add_to_cart .container .row .col-8 .counter .row .col-6 p {
+        line-height: 20px;
+        margin: 0;
+        font-size: 18px;
+        color: #2577fd; }
+      .add_to_cart .container .row .col-8 .counter .row .col-6 .btn-group {
+        height: auto;
+        border-color: #2577fd; }
+        .add_to_cart .container .row .col-8 .counter .row .col-6 .btn-group .btn {
+          margin: 0;
+          padding: 1rem; }
+        .add_to_cart .container .row .col-8 .counter .row .col-6 .btn-group .display {
+          background-color: #2577fd;
+          color: #fff; }
+    .add_to_cart .container .row .col-8 .counter button {
+      padding: 1rem;
+      margin-top: 4rem;
+      color: #2577fd;
+      border-color: #2577fd;
+      background-color: #fff;
+      transition: 0.2s ease; }
+      .add_to_cart .container .row .col-8 .counter button:hover {
+        background-color: #2577fd;
+        color: #fff; }
+
+.subscribe-section {
+  height: 420px;
+  background-color: #191d34; }
+  .subscribe-section .container-fluid .row .col-lg-6 {
+    text-align: center;
+    color: #fff; }
+    .subscribe-section .container-fluid .row .col-lg-6 h1 {
+      font-family: "Josefin sans", sans-serif;
+      margin-top: 4rem; }
+    .subscribe-section .container-fluid .row .col-lg-6 .subscribe-form {
+      margin-top: 4rem; }
+      .subscribe-section .container-fluid .row .col-lg-6 .subscribe-form input {
+        padding: 1.5rem;
+        width: 100%;
+        border: 1px solid #fff;
+        background-color: transparent;
+        color: #fff;
+        position: relative;
+        outline: none; }
+        .subscribe-section .container-fluid .row .col-lg-6 .subscribe-form input::placeholder {
+          color: #fff;
+          font-size: 18px; }
+      .subscribe-section .container-fluid .row .col-lg-6 .subscribe-form a {
+        padding: 1rem 2rem;
+        border: 1px solid #2577fd;
+        text-decoration: none;
+        color: #fff;
+        background-color: #2577fd;
+        font-size: 18px;
+        position: absolute;
+        right: 21px;
+        margin-top: 6px;
+        transition: all 0.2s ease;
+        font-weight: 500; }
+        .subscribe-section .container-fluid .row .col-lg-6 .subscribe-form a:hover {
+          color: #ff2020;
+          background-color: #fff; }
+
+/*# sourceMappingURL=details.css.map */

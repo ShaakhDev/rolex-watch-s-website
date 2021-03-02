@@ -1,0 +1,215 @@
+*{
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.section{
+  .container{
+    .blog1{
+      height: 610px;
+      margin-top: 80px;
+      width: 700px;
+      margin-left: 0;
+      .card{
+        border: transparent;
+        border-radius: 0;
+        box-shadow:
+                inset 0 -3em 3em rgba(255, 255, 255, 0.1),
+                0 0  0 2px transparent,
+                0.3em 0.3em 1em rgba(181, 179, 179, 0.3);
+
+        img{
+          width: 700px;
+          height: 400px;
+
+
+        }
+        .card-body{
+
+          line-height: 30px;
+          height: 220px;
+          margin-left: 10px;
+          border: transparent;
+          h3{
+            margin-top: 30px;
+            text-align: left;
+            color: #062c33;
+            font-family: "Josefin Sans", sans-serif;
+            &:hover{
+              color: red;
+            }
+          }
+          p{
+            margin-top: 20px;
+            text-align: left;
+            font-size: 14px;
+
+            color: #747477;
+          }
+        }
+      }
+
+    }
+    .search{
+      width: 350px;
+      height: 150px;
+      background-color: #FBF9FE;
+      margin-top: 80px;
+      .input-group{
+        width:300px;
+        padding-top: 30px;
+      }
+      .btn1{
+
+        width:300px;
+        background-color: red;
+        margin-left: 25px;
+        border-radius: 0;
+        color: white;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        font-family: "Josefin Sans", sans-serif;
+        &:hover{
+          background-color: #5a6268;
+        }
+      }
+    }
+    .category{
+      width: 350px;
+      height: 490px;
+      background-color:#FBF9FE ;
+      margin-top: 30px;
+      ul{
+        list-style: none;
+        line-height: 65px;
+        text-transform: capitalize;
+        font-family: Consolas sans-serif;
+        font-size: 17px;
+
+       li{
+         width: 280px;
+         border-bottom: 1px solid #e9e7e7;
+         h3{
+           margin-bottom: 20px;
+           padding-top: 20px;
+           font-family: "Josefin Sans", sans-serif;
+           color: #062c33;
+           font-size: 20px;
+
+         }
+         a{
+           color: #5a6268;
+           text-decoration: none;
+           &:hover{
+             color: red;
+           }
+         }
+       }
+      }
+
+
+    }
+    .blog2{
+      margin-top: -10px!important;
+
+    }
+    .post{
+      ul{
+        position: relative;
+        line-height: 100px;
+        li{
+          border-bottom: none;
+          a{
+            padding-left:12px;
+            color: black;
+            font-family: "Josefin Sans", sans-serif;
+          }
+          span{
+            position: absolute;
+            top: 95px;
+            left: 135px;
+            font-family: "Josefin Sans", sans-serif;
+            color: #999d9f;
+          }
+        }
+      }
+    }
+    .blog3{
+     margin-top: 40px;
+
+    }
+    .right{
+      .tag{
+        margin-top: -50px;
+        height: 300px;
+        a{
+          border-radius: 10px;
+          font-size: 15px;
+          background-color: white;
+          color: grey;
+          padding: 8px 10px;
+          text-decoration: none;
+          &:hover{
+            background-color: #ff253a;
+            color: white;
+          }
+        }
+
+      }
+      .insta{
+        margin-top: 30px;
+        div{
+          img{
+            margin-top: 10px;
+            margin-right: 10px;
+          }
+        }
+      }
+      .news{
+        div{
+          input{
+            width: 300px;
+            text-align: left;
+            height: 40px;
+            border: transparent;
+            outline: none;
+
+          }
+          ::placeholder{
+            padding-left: 10px;
+            font-family: "Josefin Sans", sans-serif;
+
+          }
+          .btn2{
+            background-color: #ff253a;
+            padding: 8px 102px;
+            border-radius: 0;
+            color: white;
+            font-family: "Josefin Sans", sans-serif;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            transition: all 0.3s linear;
+            &:hover{
+              background-color: white;
+              color: black;
+              border: 1px solid red;
+            }
+          }
+
+
+        }
+      }
+    }
+    .blog4{
+      margin-top: 45px;
+    }
+
+
+
+  }
+
+}
+.footer{
+  margin-top: 300px;
+}

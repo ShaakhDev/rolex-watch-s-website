@@ -1,0 +1,103 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box; }
+
+.about .mission {
+  width: 900px;
+  text-align: left;
+  margin-top: 200px;
+  position: relative; }
+  .about .mission h2 {
+    margin-left: 80px;
+    font-weight: bolder;
+    font-family: "Josefin Sans", sans-serif; }
+  .about .mission .redborder {
+    width: 60px;
+    top: 18px;
+    border-bottom: 2px solid red;
+    position: absolute; }
+  .about .mission p {
+    letter-spacing: 2px;
+    color: #062c33;
+    font-size: 14px;
+    font-family: Consolas;
+    line-height: 35px; }
+.about .mission1 {
+  margin-top: 50px; }
+.about .video {
+  background-image: url(../img/gallery/sectin_bg1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 700px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 9rem;
+  position: relative; }
+  .about .video:hover .container-fluid .row .col-12 .play-btn a {
+    transform: scale(1); }
+  .about .video:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background-color: rgba(2, 5, 12, 0.5);
+    opacity: 0;
+    z-index: 0;
+    transition: all 0.4s ease-out; }
+  .about .video:hover::before {
+    opacity: 1;
+    visibility: visible; }
+  .about .video .container-fluid .row .col-12 .play-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .about .video .container-fluid .row .col-12 .play-btn a {
+      position: relative;
+      text-decoration: none;
+      color: #fff;
+      height: 85px;
+      width: 85px;
+      font-size: 24px;
+      line-height: 24px;
+      border: 1px solid #fff;
+      padding-top: 29px;
+      padding-left: 33px;
+      border-radius: 50%;
+      transform: scale(0.9);
+      transition: all 0.4s ease-out; }
+      .about .video .container-fluid .row .col-12 .play-btn a:hover {
+        background: #fff;
+        color: red; }
+  .about .video .next-video-button {
+    position: absolute;
+    width: 500px;
+    height: 150px;
+    left: 0;
+    bottom: 0;
+    background-image: url(../img/gallery/vidoe_more.png);
+    background-repeat: no-repeat;
+    background-size: cover; }
+    .about .video .next-video-button .wrapper {
+      display: flex;
+      font-size: 24px;
+      text-transform: capitalize;
+      font-family: "Josefin Sans", sans-serif;
+      color: #fff;
+      line-height: 150px; }
+      .about .video .next-video-button .wrapper a {
+        text-decoration: none;
+        color: #fff;
+        transition: all 0.5s ease-out;
+        padding: 2rem;
+        padding-top: 0; }
+        .about .video .next-video-button .wrapper a:hover {
+          transform: translateX(10px); }
+
+/*# sourceMappingURL=main3.css.map */
